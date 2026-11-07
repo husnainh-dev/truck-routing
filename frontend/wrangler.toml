@@ -4,5 +4,5 @@ pages_build_output_dir = "dist"
 compatibility_date = "2026-10-01"
 
 [vars]
-# Django API on Render; /api/* is forwarded there by functions/api/[[path]].js
-BACKEND_URL = "https://truck-routing-api.onrender.com"
+# Django API on Render (your service URL, e.g. https://husnain-truck-routing-api.onrender.com);
+BACKEND_URL = ""  # set to your Render service URL
