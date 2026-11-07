@@ -1,0 +1,8 @@
+# Cloudflare Pages: npm run build && npx wrangler pages deploy
+name = "truck-routing"
+pages_build_output_dir = "dist"
+compatibility_date = "2026-10-01"
+
+[vars]
+# Django API on Render; /api/* is forwarded there by functions/api/[[path]].js
+BACKEND_URL = "https://truck-routing-api.onrender.com"

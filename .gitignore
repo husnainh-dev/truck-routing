@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.py[cod]
+db.sqlite3
+.env
+node_modules/
+dist/
+.playwright-mcp/
+.wrangler/
+fs-assessment-spotter.pdf
